@@ -1,4 +1,4 @@
-#🎨 Color Detector (PyQt5 + PIL)
+**🎨 Color Detector (PyQt5 + PIL)**
 
 A lightweight desktop color picker built with PyQt5 and Pillow (PIL).
 This tool allows you to detect, preview, and copy any color from your screen in HEX, RGB, or HSV format — simply by hovering your mouse and pressing Enter.
@@ -11,7 +11,7 @@ This tool allows you to detect, preview, and copy any color from your screen in 
 
 Press Enter to start/stop color tracking.
 
-#🎨 Multiple color formats:
+**🎨 Multiple color formats:**
 
 HEX (#rrggbb)
 
@@ -39,7 +39,7 @@ Choose your preferred format (HEX / RGB / HSV).
 
 Click “Copy to Clipboard” to copy the color code.
 
-#📦 Installation
+**📦 Installation**
 1. Clone the repository
 git clone https://github.com/yourusername/color-detector.git
 cd color-detector
@@ -53,14 +53,14 @@ pip install PyQt5 Pillow pyperclip
 3. Run the app
 python color_detector.py
 
-#🧩 Project Structure
+**🧩 Project Structure**
 color-detector/
 │
 ├── color_detector.py     # Main application file
 ├── README.md             # Documentation
 └── LICENSE               # (Optional) License file
 
-#🧠 Technical Overview
+**🧠 Technical Overview**
 Component	Description
 GUI Framework	PyQt5 (QWidget, QLabel, QPushButton, etc.)
 Screen Capture	PIL.ImageGrab (captures pixel color)
@@ -85,7 +85,7 @@ Pillow (PIL)
 
 Pyperclip
 
-#🚀 Future Enhancements
+**🚀 Future Enhancements**
 
 Color palette history
 
@@ -95,7 +95,7 @@ Option to pick colors from screenshots or images
 
 Copy all formats at once
 
-#🧑‍💻 Author
+**🧑‍💻 Author**
 
 Mobina RZ
 🎨 Developer & Educator
